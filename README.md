@@ -37,30 +37,30 @@
 
 ```
 DSA/
-├── Step_01_Learn_the_Basics/
-│   ├── Lec_01_Things_to_Know_in_CPP/
-│   ├── Lec_02_Build_Up_Logical_Thinking/
-│   ├── Lec_03_Learn_STL_Collections/
-│   ├── Lec_04_Know_Basic_Maths/
-│   ├── Lec_05_Learn_Basic_Recursion/
-│   └── Lec_06_Learn_Basic_Hashing/
-├── Step_02_Sorting_Techniques/
-├── Step_03_Arrays/
-├── Step_04_Binary_Search/
-├── Step_05_Strings/
-├── Step_06_Linked_List/
-├── Step_07_Recursion/
-├── Step_08_Bit_Manipulation/
-├── Step_09_Stack_and_Queue/
-├── Step_10_Sliding_Window_Two_Pointer/
-├── Step_11_Heaps/
-├── Step_12_Greedy_Algorithms/
-├── Step_13_Binary_Trees/
-├── Step_14_Binary_Search_Trees/
-├── Step_15_Graphs/
-├── Step_16_Dynamic_Programming/
-├── Step_17_Tries/
-└── Step_18_Strings_Advanced/
+├── 01_Learn_the_Basics/
+│   ├── 01_Things_to_Know_in_CPP/
+│   ├── 02_Build_Up_Logical_Thinking/
+│   ├── 03_Learn_STL_Collections/
+│   ├── 04_Know_Basic_Maths/
+│   ├── 05_Learn_Basic_Recursion/
+│   └── 06_Learn_Basic_Hashing/
+├── 02_Sorting_Techniques/
+├── 03_Arrays/
+├── 04_Binary_Search/
+├── 05_Strings/
+├── 06_Linked_List/
+├── 07_Recursion/
+├── 08_Bit_Manipulation/
+├── 09_Stack_and_Queue/
+├── 10_Sliding_Window_Two_Pointer/
+├── 11_Heaps/
+├── 12_Greedy_Algorithms/
+├── 13_Binary_Trees/
+├── 14_Binary_Search_Trees/
+├── 15_Graphs/
+├── 16_Dynamic_Programming/
+├── 17_Tries/
+└── 18_Strings_Advanced/
 ```
 
 ---
