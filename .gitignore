@@ -17,3 +17,7 @@ Thumbs.db
 # Temp files
 *.tmp
 *.log
+
+# Auto-push scripts (local only)
+auto_push.ps1
+START_AUTO_PUSH.bat
