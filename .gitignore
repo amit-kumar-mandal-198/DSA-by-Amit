@@ -1,0 +1,19 @@
+# Compiled files
+*.exe
+*.out
+*.o
+*.obj
+
+# IDE files
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temp files
+*.tmp
+*.log
