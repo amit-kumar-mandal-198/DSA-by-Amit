@@ -21,3 +21,4 @@ Thumbs.db
 # Auto-push scripts (local only)
 auto_push.ps1
 START_AUTO_PUSH.bat
+silent_push.vbs
