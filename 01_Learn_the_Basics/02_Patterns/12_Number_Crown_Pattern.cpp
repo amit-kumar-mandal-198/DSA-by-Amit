@@ -24,6 +24,5 @@ int main() {
     cout<<"enter value of n :";
     cin>>n;
     pattern12(n);
-    
     return 0;
 }
