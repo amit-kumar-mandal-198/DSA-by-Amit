@@ -19,7 +19,10 @@ using namespace std;
 
 
 int main() {
-    
+     int n;
+    cout<<"enter value of n :";
+    cin>>n;
+    pattern11(n);
     
     return 0;
 }
