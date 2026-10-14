@@ -4,17 +4,22 @@ using namespace std;
 void pattern12(int n){
  for(int i=0;i<n;i++)
     {
+        //numbers
         for(int j=0;j<i+1;j++)
         {
             cout<<j+1;
         }
+
+        //spaces
         for(int k=0;k<2*(n-i)-2;k++)
         {
             cout<<" ";
         }
-        for(int j=0;j<i+1;j++)
+
+        //numbers
+        for(int j=i+1;j>=1;j--)
         {
-            cout<<n-j-1;
+            cout<<j;
         }
         cout<<endl;
     }
