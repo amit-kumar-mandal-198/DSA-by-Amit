@@ -1,25 +1,23 @@
-﻿/*
-    Problem: 15 Reverse Letter Triangle Pattern
-    Author: Amit Kumar Mandal
-    Sheet: Striver's A2Z DSA Sheet
-    
-    Description:
-    -----------
-    TODO: Add problem description here
-    
-    Approach:
-    --------
-    TODO: Add approach here
-    
-    Time Complexity: O()
-    Space Complexity: O()
-*/
-
+﻿
 #include <bits/stdc++.h>
 using namespace std;
-
+void pattern15(int n) {
+for(int i=0;i<n;i++)
+        
+        {
+            
+            for(char j='A';j<'A'+(n-i);j++)
+            {
+               cout<<j;
+            }
+            cout<<endl;
+        }
+    }
 int main() {
-    // TODO: Write your solution here
+    int n;
+    cout<<"enter value of n :";
+    cin>>n;
+    pattern15(n);
     
     return 0;
 }
