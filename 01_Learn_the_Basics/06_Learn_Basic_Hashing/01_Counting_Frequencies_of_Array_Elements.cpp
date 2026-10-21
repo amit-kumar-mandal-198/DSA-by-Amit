@@ -1,25 +1,14 @@
-﻿/*
-    Problem: 01 Counting Frequencies of Array Elements
-    Author: Amit Kumar Mandal
-    Sheet: Striver's A2Z DSA Sheet
-    
-    Description:
-    -----------
-    TODO: Add problem description here
-    
-    Approach:
-    --------
-    TODO: Add approach here
-    
-    Time Complexity: O()
-    Space Complexity: O()
-*/
-
-#include <bits/stdc++.h>
+﻿#include<bits/stdc++.h>
 using namespace std;
 
-int main() {
-    // TODO: Write your solution here
-    
+int main()
+{
+    int n;
+    int arr[n];
+    for(int i=0;i<n;i++)
+    {
+        cin>> arr[i];
+    }
+
     return 0;
 }
