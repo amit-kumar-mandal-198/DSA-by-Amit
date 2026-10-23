@@ -10,13 +10,13 @@ int countDigit(int n) {
         count++;
         n/=10;  //n=n/10;
     }
-    cout<< count;
+    return count;
     }
 
 int main() {
         int n;
         cout<<"Enter the digit :";
         cin>>n;
-        countDigit(n);
+        cout<< countDigit(n);
     return 0;
 }
