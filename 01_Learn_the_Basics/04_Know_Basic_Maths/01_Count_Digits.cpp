@@ -1,25 +1,13 @@
-﻿/*
-    Problem: 01 Count Digits
-    Author: Amit Kumar Mandal
-    Sheet: Striver's A2Z DSA Sheet
-    
-    Description:
-    -----------
-    TODO: Add problem description here
-    
-    Approach:
-    --------
-    TODO: Add approach here
-    
-    Time Complexity: O()
-    Space Complexity: O()
-*/
-
+﻿
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    // TODO: Write your solution here
+        int n;
+        cout<<"Enter the number :";
+        cin>>n;
+        int temp=0;
+        while()
     
     return 0;
 }
