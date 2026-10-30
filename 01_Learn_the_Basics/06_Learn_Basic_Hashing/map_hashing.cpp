@@ -17,6 +17,11 @@ int main()
         mpp[arr[i]]++;
     }
 
+    //to check how the elements are stored in map we can check by iteration
+    // for(auto it: mpp){
+    //     cout<< it.first <<"->"<<it.second <<endl;
+    // }
+
 
     int q;
     cin>>q;
