@@ -25,6 +25,7 @@ int main()
         int number;
         cin>>number;
         //fetch
+        cout<<mpp[number]<<endl;
 
     }
     return 0;
