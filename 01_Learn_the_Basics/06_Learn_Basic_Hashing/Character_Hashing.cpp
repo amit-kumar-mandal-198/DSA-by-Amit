@@ -26,7 +26,7 @@ using namespace std;
 // }
 
 
-
+//for all 256 characters 
 int main()
 {
     string s;
@@ -35,7 +35,7 @@ int main()
     int hash[256]={0};
     for(int i=0;i<s.size();i++)
     {
-        hash[s[i]]++;
+        hash[s[i]]++;    //it typecaste into its ASCII value.
     }
 
     int q;
