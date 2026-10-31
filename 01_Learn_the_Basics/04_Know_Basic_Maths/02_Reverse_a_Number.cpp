@@ -28,3 +28,8 @@ int main() {
     
     return 0;
 }
+
+
+
+// TIME COMPLEXITY : O(log10(x))
+//SPACE COMPLEXITY : O(1)

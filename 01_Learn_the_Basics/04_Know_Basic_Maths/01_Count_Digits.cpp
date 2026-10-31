@@ -36,3 +36,8 @@ int main() {
 //     cout<<count;
 //     return 0;
 // }
+
+
+
+// TIME COMPLEXITY : O(log10(n))
+//SPACE COMPLEXITY : O(1)
