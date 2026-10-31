@@ -1,25 +1,19 @@
-﻿/*
-    Problem: 02 Reverse a Number
-    Author: Amit Kumar Mandal
-    Sheet: Striver's A2Z DSA Sheet
-    
-    Description:
-    -----------
-    TODO: Add problem description here
-    
-    Approach:
-    --------
-    TODO: Add approach here
-    
-    Time Complexity: O()
-    Space Complexity: O()
-*/
-
+﻿
 #include <bits/stdc++.h>
 using namespace std;
+class solution {
+    public:
+    int reverse(int n)
+    {
+        while(n>0)
+        {
+            
+        }
+    }
+}
 
 int main() {
-    // TODO: Write your solution here
+    
     
     return 0;
 }
