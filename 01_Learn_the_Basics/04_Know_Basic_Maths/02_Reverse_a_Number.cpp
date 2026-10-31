@@ -9,6 +9,10 @@ class solution {
         while(n>0)
         {
             int last = n%10;
+             if(rev>INT_MAX/10 || rev<INT_MIN/10)
+            {
+                return 0;
+            }
             rev =(rev*10) + last;
             n/=10;
         }
