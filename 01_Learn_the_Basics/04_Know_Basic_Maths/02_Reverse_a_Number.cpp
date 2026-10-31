@@ -5,15 +5,20 @@ class solution {
     public:
     int reverse(int n)
     {
+        int rev =0;
         while(n>0)
         {
-            
+            int last = n%10;
+            rev =(rev*10) + last;
+            n/=10;
         }
+        return rev;
     }
 }
 
 int main() {
-    
+    student obj;
+   cout<< obj.reverse(123);
     
     return 0;
 }
