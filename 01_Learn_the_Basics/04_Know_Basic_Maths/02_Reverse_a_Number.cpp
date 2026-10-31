@@ -14,11 +14,11 @@ class solution {
         }
         return rev;
     }
-}
+};
 
 int main() {
-    student obj;
-   cout<< obj.reverse(123);
+    solution obj;
+   cout<< obj.reverse(123)<<endl;
     
     return 0;
 }
