@@ -33,3 +33,6 @@ int main() {
 
 // TIME COMPLEXITY : O(log10(x))
 //SPACE COMPLEXITY : O(1)
+/*The algorithm only uses two integer variables (rev and last) regardless of how large x is.
+ Because the memory used does not grow with the input size, the auxiliary space complexity is O(1).  
+*/
