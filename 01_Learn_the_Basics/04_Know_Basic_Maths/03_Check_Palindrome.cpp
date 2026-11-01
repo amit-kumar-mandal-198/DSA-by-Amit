@@ -8,7 +8,6 @@ public :
     {
         int original =n;
         int rev =0;
-        cin>>n;
         if(n<0) return false;
         while(n>0)
         {
@@ -25,7 +24,7 @@ public :
 
 int main() {
     solution obj;
-    cout<<obj.palindrome(121);
+    cout<<(obj.palindrome(121) ? "true" : "false")<<"\n";
     
     return 0;
 }
