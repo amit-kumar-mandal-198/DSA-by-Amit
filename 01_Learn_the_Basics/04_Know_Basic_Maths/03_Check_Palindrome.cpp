@@ -36,6 +36,15 @@ class solution
 public:
     int largest(int n)
     {
-        
+        string s=to_string(n);
+        int largest=s[0];
+        for(int i=0;i<s.size-1;i++)
+        {
+            if(largest<=s[i])
+            {
+                largest =s[i];
+            }
+            
+        }
     }
 };
