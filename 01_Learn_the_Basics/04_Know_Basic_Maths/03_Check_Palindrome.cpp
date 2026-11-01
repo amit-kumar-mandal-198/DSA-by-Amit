@@ -38,15 +38,16 @@ public:
     {
         string s=to_string(n);
         int largest=s[0];
-        for(int i=0;i<s.size()-1;i++)
+        for(int i=0;i<s.size();i++)
         {
-            if(largest<=s[i])
+            if(s[i]>largest)
             {
                 largest =s[i];
             }
            
         }
-         return (int)largest;
+        
+         return largest;
     }
 };
 int main() {
