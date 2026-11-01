@@ -38,13 +38,20 @@ public:
     {
         string s=to_string(n);
         int largest=s[0];
-        for(int i=0;i<s.size-1;i++)
+        for(int i=0;i<s.size()-1;i++)
         {
             if(largest<=s[i])
             {
                 largest =s[i];
             }
-            
+           
         }
+         return (int)largest;
     }
 };
+int main() {
+    solution obj;
+    cout<<(obj.largest(125));
+    
+    return 0;
+}
