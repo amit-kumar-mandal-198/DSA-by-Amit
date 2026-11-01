@@ -46,13 +46,13 @@ public:
             }
            
         }
-        
-         return largest;
+
+         return largest - '0';
     }
 };
 int main() {
     solution obj;
-    cout<<(obj.largest(125));
+    cout<<(obj.largest(1));
     
     return 0;
 }
