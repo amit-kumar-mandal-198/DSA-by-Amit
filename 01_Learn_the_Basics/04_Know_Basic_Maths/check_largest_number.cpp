@@ -21,10 +21,12 @@ public:
 
 
 
-    //2nd approach:
+    //2nd approach:optimal approach
     int largest(int n)
     {
         int largest =0;
+        n=abs(n);  // Convert negative number to positive
+        if(n==0) return 0;
         while(n>0)
         {
             int ld=n%10;
@@ -39,7 +41,7 @@ public:
 };
 int main() {
     solution obj;
-    cout<<(obj.largest(162625));
+    cout<<(obj.largest(19987));
     
     return 0;
 }
