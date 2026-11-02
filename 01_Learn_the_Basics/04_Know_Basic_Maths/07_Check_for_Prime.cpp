@@ -32,6 +32,7 @@ int main() {
    cin>>n;
    if(n<0){
        cout<<"Error";
+       return 0;
    }
    int fact=1;
    for(int i=2;i<=n;i++)
