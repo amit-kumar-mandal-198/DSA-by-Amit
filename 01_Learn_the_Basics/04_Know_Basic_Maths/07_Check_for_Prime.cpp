@@ -15,30 +15,12 @@
     Space Complexity: O()
 */
 
-// #include <bits/stdc++.h>
-// using namespace std;
-
-// int main() {
-//     // TODO: Write your solution here
-    
-//     return 0;
-// }
-
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-   int n;
-   cin>>n;
-   if(n<0){
-       cout<<"Error";
-       return 0;
-   }
-   int fact=1;
-   for(int i=2;i<=n;i++)
-   {
-       fact*=i;
-   }
-    cout<<fact;
+    // TODO: Write your solution here
+    
     return 0;
 }
+
