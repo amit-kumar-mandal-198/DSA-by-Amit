@@ -45,3 +45,9 @@ int main() {
     
     return 0;
 }
+
+
+/*Time Complexity: O(log10 N), where log10 N is the number of digits in N and each digit is checked exactly once.
+
+Space Complexity: O(1), because constant space is used.
+*/
