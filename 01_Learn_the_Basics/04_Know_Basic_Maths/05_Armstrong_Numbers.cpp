@@ -49,16 +49,22 @@ private:
 
     int fastPower(int base,int exponent){
         int result=1;
-        while(exponent & 1){
-            result*=base;
-        }
+        while(exponent>0){
+            if(exponent & 1){
+                result*=base;
+            }
+           
+        
         base*=base;
-        exponent
+        exponent >>=1;
     }
+    return result;
+}
 };
 
 int main() {
-    
+    solution obj;
+    cout<<obj.isArmstrong(153) ? "True" : "False" ;
     
     return 0;
 }
