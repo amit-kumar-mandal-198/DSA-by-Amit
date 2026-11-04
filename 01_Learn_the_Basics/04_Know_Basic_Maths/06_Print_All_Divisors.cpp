@@ -11,8 +11,8 @@
     --------
     TODO: Add approach here
     
-    Time Complexity: O()
-    Space Complexity: O()
+    Time Complexity: O(sqrt n)
+    Space Complexity: O(1)
 */
 
 #include <bits/stdc++.h>
@@ -34,10 +34,14 @@ bool perfect(int n)
             }
         }
     }
+    return sum==n;
 }
 
 int main() {
-    
-    
+    int n;
+    cout<<"Enter number :"<<endl;
+    cin>>n;
+    int isperfect=perfect(n);
+    cout<<(isperfect ? "True" : "False");
     return 0;
 }
