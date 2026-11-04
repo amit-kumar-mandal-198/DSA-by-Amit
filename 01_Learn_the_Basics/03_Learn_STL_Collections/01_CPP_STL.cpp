@@ -17,9 +17,20 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+int sum(int arr[], int n) {
+        int result =0;
+	  for(int i=0;i<n;i++)
+      {
+        result+=arr[i];
+      }
+      return result;
+	}
 
 int main() {
     // TODO: Write your solution here
+   int result=sum([1,2,3,4,5],5);
+   
+	
     
     return 0;
 }
