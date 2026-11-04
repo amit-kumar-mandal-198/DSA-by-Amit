@@ -28,8 +28,9 @@ int sum(int arr[], int n) {
 
 int main() {
     // TODO: Write your solution here
-   int result=sum([1,2,3,4,5],5);
-   
+    int arr[]={1,2,3,4,5};
+   int result=sum(arr,5);
+   cout<<result;
 	
     
     return 0;
