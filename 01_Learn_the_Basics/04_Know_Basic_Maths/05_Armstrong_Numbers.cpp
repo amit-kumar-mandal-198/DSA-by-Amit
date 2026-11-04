@@ -64,7 +64,7 @@ private:
 
 int main() {
     solution obj;
-    cout<<obj.isArmstrong(153) ? "True" : "False" ;
+    cout<<((obj.isArmstrong(153)) ? "True" : "False") ;
     
     return 0;
 }
