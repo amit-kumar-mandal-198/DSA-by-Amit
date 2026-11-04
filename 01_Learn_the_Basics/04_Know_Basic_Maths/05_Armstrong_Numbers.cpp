@@ -17,9 +17,26 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+class solution
+{
+public:
+    bool isArmstrong(int n)
+    {
+        if(n<0) return false;
+        if(n==0) return true;
+        int original=n;
+        int digits = countDigits(n);
+
+        int sum=0;
+        while(n>0){
+            int digit=n%10;
+            sum+= fastPower()
+        }
+    }
+};
 
 int main() {
-    // TODO: Write your solution here
+    
     
     return 0;
 }
