@@ -11,8 +11,8 @@
     --------
     TODO: Add approach here
     
-    Time Complexity: O()
-    Space Complexity: O()
+    Time Complexity: O(sqrt(n))
+    Space Complexity: O(1)
 */
 
 #include <bits/stdc++.h>
@@ -40,7 +40,7 @@ int main() {
     int n;
     cout<<"Enter number :";
     cin>>n;
-    cout<<obj.isprime()
+    cout<<(obj.isprime(n) ? "True" : "False");
     
     return 0;
 }
