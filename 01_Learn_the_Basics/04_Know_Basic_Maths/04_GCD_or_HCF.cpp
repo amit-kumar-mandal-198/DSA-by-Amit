@@ -17,9 +17,18 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+class solution {
+public:
+    int GCD(int n1, int n2)
+    {
+        n1=abs(n1);
+        n2=abs(n2);
+        
+    }
+};
 
 int main() {
-    // TODO: Write your solution here
+    
     
     return 0;
 }
